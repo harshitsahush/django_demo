@@ -6,4 +6,11 @@ App1 homepage
 
 {% block content %}
 This is the app1 homepage.
+
+    {% for post in posts %}
+    <div>
+        {{post}}
+    </div>
+    {% endfor %}
+
 {% endblock %}
