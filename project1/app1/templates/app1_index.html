@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>app1</title>
-</head>
-<body>
-    you are inside app1 index page
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block page_title %}
+App1 homepage
+{% endblock %}
+
+{% block content %}
+This is the app1 homepage.
+{% endblock %}
