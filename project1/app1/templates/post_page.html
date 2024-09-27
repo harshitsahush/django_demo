@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+Post Detail homepage
+{% endblock %}
+
+{% block content %}
+This is the post detail homepage.
+    <br>
+    {{post.id}}
+    <br>
+    {{post.title}}
+    <br>
+    {{post.user_name}}
+    <br>
+    {{post.post_content}}
+
+{% endblock %}
